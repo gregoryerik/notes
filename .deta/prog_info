@@ -1,0 +1,1 @@
+{"id":"b32bb974-4f99-4c5f-bb4f-a5b5fb57452f","space":52286,"runtime":"python3.9","name":"notes_micro","path":"f0ba5a","project":"a0v7olbb","account":"144798365827","region":"eu-central-1","deps":["fastapi","deta","pydantic","jinja2","firebase-admin"],"envs":null,"public":true,"log_level":"debug","cron":""}

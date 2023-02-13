@@ -1,0 +1,5 @@
+fastapi
+deta
+pydantic
+jinja2
+firebase-admin

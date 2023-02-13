@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/superkube@latest/dist/superkube.min.css">
+  <title>Notes</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="{{ url_for('static', path='/load.js') }}"></script>
+  <style>
+    .swal2-popup {
+        font-size: 4rem !important;
+      }
+
+  </style>
+
+  <script>
+    window.onload = load_notes;
+  </script>
+</head>
+<body>
+    <div class="hero py-20">
+        <div class="container edges centered">
+            <div class="hero-head">
+                <h1 class="heading-mega">All Notes</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container edges centered" id="notes_container">
+
+    </div>
+
+    
+</body>
+</html>
